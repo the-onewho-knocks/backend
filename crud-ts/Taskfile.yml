@@ -1,0 +1,4 @@
+PS C:\A-Projects gng\backend\crud-ts> npm init -y
+npm install express
+npm install -D typescript ts-node-dev @types/node @types/express
+npx tsc --init
