@@ -7,6 +7,11 @@ app.use(express.json())
 
 app.use("/users", userRoutes)
 
+app.post("/test", (req, res) => {
+  console.log(req.body)
+  res.json({ ok: true })
+})
+
 app.listen(3005, () => {
   console.log("Server running on port 3005")
 })
